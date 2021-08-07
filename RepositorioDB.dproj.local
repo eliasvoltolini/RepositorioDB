@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/10/08 19:47:25.000.102,=C:\Users\computador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/05 21:15:23.000.870,=C:\Users\computador\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2021/08/05 21:15:29.000.252,=C:\Users\computador\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2021/08/07 17:04:36.494,=C:\Users\computador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/07 17:05:04.975,D:\Projetos\RepositorioDB\Views\UFrmPrincipal.pas=C:\Users\computador\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/07 17:05:04.975,D:\Projetos\RepositorioDB\Views\UFrmPrincipal.dfm=C:\Users\computador\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/08/07 17:05:13.944,D:\Projetos\RepositorioDB\RepositorioDB.dproj=C:\Users\computador\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/08/07 17:11:21.834,=D:\Projetos\RepositorioDB\Unit1.pas</Transaction>
+    <Transaction>2021/08/07 17:11:43.958,D:\Projetos\RepositorioDB\Model\Interface\UInterface.Model.Interfaces.pas=D:\Projetos\RepositorioDB\Unit1.pas</Transaction>
+    <Transaction>2021/08/07 17:15:08.163,=D:\Projetos\RepositorioDB\Unit1.pas</Transaction>
+    <Transaction>2021/08/07 17:15:40.942,D:\Projetos\RepositorioDB\Model\Entidade\UEntidade.Model.RepositorioDB.pas=D:\Projetos\RepositorioDB\Unit1.pas</Transaction>
+    <Transaction>2021/08/07 17:58:13.925,=D:\Projetos\RepositorioDB\Unit1.pas</Transaction>
+    <Transaction>2021/08/07 17:58:56.924,D:\Projetos\RepositorioDB\Model\Controller\UController.Model.RepositorioDB.pas=D:\Projetos\RepositorioDB\Unit1.pas</Transaction>
+    <Transaction>2021/08/07 17:59:37.131,=D:\Projetos\RepositorioDB\Unit1.pas</Transaction>
+    <Transaction>2021/08/07 18:00:15.296,D:\Projetos\RepositorioDB\Model\Controller\UController.Model.Interfaces.pas=D:\Projetos\RepositorioDB\Unit1.pas</Transaction>
+    <Transaction>2021/08/07 18:02:21.868,D:\Projetos\RepositorioDB\Model\Controller\UController.Model.Interfaces.pas=</Transaction>
+    <Transaction>2021/08/07 18:10:25.190,=D:\Projetos\RepositorioDB\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
