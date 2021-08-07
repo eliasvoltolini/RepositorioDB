@@ -1,2 +1,2 @@
 # delphi
-Projects in Delphi
+Project in Delphi
