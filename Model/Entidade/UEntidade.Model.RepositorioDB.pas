@@ -22,8 +22,8 @@ type
     function AddWhere(Campo, Valor: String; Condicao: String = '='): iRepositorioDB;
     function AddGroup(Campo: String): iRepositorioDB;
     function AddOrder(Campo: String): iRepositorioDB;
-    function Limpa(): iRepositorioDB;
 
+    function AsClear(): iRepositorioDB;
     function AsSelect(): String;
     function AsInsert(): String;
     function AsUpdate(): String;
@@ -125,6 +125,19 @@ begin
     FGroup.Add(', ' + Campo);
 end;
 
+function TRepositorioDB.AsClear(): iRepositorioDB;
+begin
+  Result  := Self;
+  FTabela := EmptyStr;
+
+  FSql.Clear;
+  FCampos.Clear;
+  FValores.Clear;
+  FWhere.Clear;
+  FGroup.Clear;
+  FOrder.Clear;
+end;
+
 function TRepositorioDB.AsSelect: String;
 var i : Integer;
 begin
@@ -205,19 +218,6 @@ begin
     FSql.Add(FWhere.Text);
 
   Result := Trim(FSql.Text) + ';';
-end;
-
-function TRepositorioDB.Limpa(): iRepositorioDB;
-begin
-  Result  := Self;
-  FTabela := EmptyStr;
-
-  FSql.Clear;
-  FCampos.Clear;
-  FValores.Clear;
-  FWhere.Clear;
-  FGroup.Clear;
-  FOrder.Clear;
 end;
 
 end.
