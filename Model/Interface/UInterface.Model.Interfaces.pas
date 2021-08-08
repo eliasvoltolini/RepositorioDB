@@ -11,8 +11,8 @@ type
     function AddWhere(Campo, Valor: String; Condicao: String = '='): iRepositorioDB;
     function AddGroup(Campo: String): iRepositorioDB;
     function AddOrder(Campo: String): iRepositorioDB;
-    function Limpa(): iRepositorioDB;
 
+    function AsClear(): iRepositorioDB;
     function AsSelect(): String;
     function AsInsert(): String;
     function AsUpdate(): String;
